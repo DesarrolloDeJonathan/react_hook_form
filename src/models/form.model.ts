@@ -1,5 +1,3 @@
-// This file defines the schema for the form using Zod, a TypeScript-first schema declaration and validation library.
-// It exports the schema and the inferred type for use in the form component.
 import { z } from 'zod';
 
 export const schema = z.object({
